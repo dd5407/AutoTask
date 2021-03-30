@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 /**
@@ -18,6 +19,7 @@ import java.util.Date;
 @Data
 @ToString
 @Entity
+@Table(name = "at_download_task")
 public class DownloadTaskEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
