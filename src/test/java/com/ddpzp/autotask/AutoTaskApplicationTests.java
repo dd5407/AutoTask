@@ -1,10 +1,10 @@
-package com.ddpzp.drf;
+package com.ddpzp.autotask;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DrfApplicationTests {
+class AutoTaskApplicationTests {
 
 	@Test
 	void contextLoads() {

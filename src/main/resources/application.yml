@@ -1,1 +1,10 @@
-
+server:
+  port: 9000
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:~/drfdb;AUTO_SERVER=TRUE
+    username: autotask
+    password: Drf@123

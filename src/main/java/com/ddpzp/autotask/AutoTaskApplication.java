@@ -1,13 +1,13 @@
-package com.ddpzp.drf;
+package com.ddpzp.autotask;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DrfApplication {
+public class AutoTaskApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DrfApplication.class, args);
+		SpringApplication.run(AutoTaskApplication.class, args);
 	}
 
 }
